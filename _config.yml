@@ -1,0 +1,20 @@
+# Site settings
+author: ANTONY JUDE PRASAN POOBALARAYAN
+title: 
+header-img: img/home-bg.png
+email: prasan29@yahoo.com
+copyright_name: ANTONY JUDE PRASAN POOBALARAYAN
+description: > # this means to ignore newlines until "baseurl:"
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  prasan18
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
